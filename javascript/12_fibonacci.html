@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fibonacci Series</title>
+  </head>
+  <body>
+    <h1>Fibonacci Series upto 20</h1>
+
+    <script>
+      var a = 1,
+        b = 1;
+      document.write(a + ', ' + b);
+      for (var i = 2; i <= 20 / 2; i++) {
+        a = a + b;
+        b = a + b;
+        document.write(', ' + a + ', ' + b);
+      }
+    </script>
+  </body>
+</html>
